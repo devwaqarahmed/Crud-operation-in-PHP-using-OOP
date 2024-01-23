@@ -30,8 +30,8 @@ Message from Author: Be Happy and make people Happy.....
             <td><?php echo $cnt; ?></td>
             <td><?php  echo $value['u_name']?></td>
             <td><?php  echo $value['u_email']?></td>
-            <td><a href="edit.php?id=<?php echo $value['user_id'];?>"><i class="fa-solid fa-pen-to-square"></i></a></td>
-            <td><a   onclick="return confirm('Are you sure?')" href="delete.php?id=<?php echo $value['user_id'];?>"><i class="fa-solid fa-trash"></i></a></td>
+            <td><a href="edit.php?id=<?php echo $value['user_id'];?>"><span class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i></span></a></td>
+            <td><a onclick="return confirm('Are you sure?')" href="delete.php?id=<?php echo $value['user_id'];?>"><span class="btn btn-primary"><i class="fa-solid fa-trash"></i></span></a></td>
           </tr>
       <?php $cnt++; }
       ?>
